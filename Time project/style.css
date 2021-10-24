@@ -1,0 +1,103 @@
+
+html {  
+    font-size: calc(60% + 0.8vmin);
+}
+body{
+    font-family: 'Oswald', sans-serif!important;
+   
+}
+.bg-color{
+    background-color: #1D1B67!important;
+}
+.bleu-color{
+    color:#1D1B67 ;
+}
+.text-size{
+    font-size: 59px;
+}
+
+.m-6{
+    margin-top: 126px;
+    
+}
+.m-7{
+    margin-right: 20px;
+    
+}
+.bg-white{
+    background-color: white;
+}
+.bg-bleu2{
+    background-color: #46CCDE;
+}
+.landing-page{
+    background: linear-gradient(90deg, #ffffff 60%, #46CCDE 60%);
+}
+.heigth-photo{
+    height: 50px;
+}
+.green-color{
+    color: #005661;
+}
+.bleu1-color{
+    color: #3B60BF;
+}
+.bg-bleu3{
+    background-color: #CDF9FF;
+}
+
+@media only  screen and (max-width:578px) {
+    .col2{
+        display: none;
+    }
+    .A{
+
+        display: block!important;
+    }
+    
+}
+.col4{
+    display: flex;
+}
+.A{
+    margin-right: 94px;
+}
+
+@media only screen and (max-width:768px) {
+    .col2{
+        display: none;
+    }
+    .btn-nav{
+        width: 156px;
+    }
+    .text-landing-page{
+        margin-top: 80px;
+        font-size: 49px;
+    }
+    .paragraph{
+        line-height: 35px;
+    }
+}
+.m-18{
+    margin-right: 18px;
+}
+/* @media screen and (max-width:768px) {
+    .btn-card{
+        width: 483px;
+    }
+    
+} */
+
+@media only screen and (max-width:583px) {
+    .switch1{
+        display: none!important;
+    }
+   
+    
+}
+@media only screen and (min-width:583px) {
+    .switch2{
+        display: none!important;
+    }
+    
+}
